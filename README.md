@@ -12,10 +12,10 @@
 
 
 ## Installation
-The `apikey` [git repo](http://github.com/ulf1/apikey) is a private packages
+The `apikey` [git repo](http://github.com/ulf1/apikey) is a private package
 
 ```
-pip install git+git@github.com:ulf1/apikey.git
+pip install git+ssh://git@github.com/ulf1/apikey.git
 ```
 
 ## Usage
