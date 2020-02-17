@@ -10,8 +10,7 @@ pip install git+ssh://git@github.com/ulf1/apikey.git
 with GemFury
 
 ```
-FURY_AUTH="<deploy token>"
-pip install apikey --extra-index-url https://${FURY_AUTH}:@pypi.fury.io/kmedian/
+FURY_AUTH="<deploy token>" pip install apikey --extra-index-url https://${FURY_AUTH}:@pypi.fury.io/kmedian/
 ```
 
 ## Install via requirements.txt
