@@ -1,6 +1,3 @@
-<!-- [![Build Status](https://travis-ci.org/ulf1/apikey.svg?branch=master)](https://travis-ci.org/ulf1/apikey)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ulf1/apikey/master?urlpath=lab) -->
-
 # apikey
 
 ## Table of Contents
