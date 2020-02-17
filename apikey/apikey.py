@@ -5,7 +5,7 @@ import configparser
 def save_apikey(service: str, apikey: str, filename: str = None):
     if filename is None:
         # filename = f"{pathlib.Path.home()}/.apikey-store"
-        filename = pathlib.Path.home().append("/.apikey-store")
+        filename = str(pathlib.Path.home()) + "/.apikey-store"
     config = configparser.ConfigParser()
     config[service] = {}
     config[service]['api-key'] = apikey
@@ -16,7 +16,7 @@ def save_apikey(service: str, apikey: str, filename: str = None):
 
 def read_apikey(service: str, filename: str = None) -> str:
     if filename is None:
-        filename = pathlib.Path.home().append("/.apikey-store")
+        filename = str(pathlib.Path.home()) + "/.apikey-store"
     config = configparser.ConfigParser()
     config.read(filename)
     return config[service]['api-key']
