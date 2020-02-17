@@ -1,3 +1,7 @@
+# 0.1.2 / 2020-02-17
+
+   * more py3.5 downgrade changes
+
 # 0.1.1 / 2020-02-17
 
    * prepared for GemFury pypi server
