@@ -1,3 +1,8 @@
+# 0.2.0 / 2002-05-30
+
+   * package moved from fury to pypi
+   * functions renamed
+
 # 0.1.2 / 2020-02-17
 
    * str bug fixed

@@ -1,1 +1,1 @@
-from .apikey import save_apikey, read_apikey
+from .apikey import save, load
