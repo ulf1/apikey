@@ -7,6 +7,7 @@ def save(service: str, apikey: str, filename: str = None):
         # filename = f"{pathlib.Path.home()}/.apikey-store"
         filename = str(pathlib.Path.home()) + "/.apikey-store"
     config = configparser.ConfigParser()
+    config.read(filename)
     config[service] = {}
     config[service]['api-key'] = apikey
     with open(filename, 'w') as fileptr:
