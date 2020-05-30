@@ -1,7 +1,7 @@
-from apikey import save_apikey, read_apikey
+import apikey
 
 
 def test1():
-    save_apikey("service1", "supersecret", filename="tmp_file1.txt")
-    key = read_apikey("service1", filename="tmp_file1.txt")
+    apikey.save("service1", "supersecret", filename="tmp_file1.txt")
+    key = apikey.load("service1", filename="tmp_file1.txt")
     assert key == "supersecret"

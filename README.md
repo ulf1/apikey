@@ -11,23 +11,23 @@ pip install git+ssh://git@github.com/ulf1/apikey.git
 ## Usage
 Store in default location `$HOME/.apikey-store` 
 
-```
-from apikey import save_apikey, read_apikey
+```python
+import apikey
 
-save_apikey("service1", "supersecret")
-save_apikey("service2", "donttellanyone")
-save_apikey("service3", "aboutthiskey")
+apikey.save("service1", "supersecret")
+apikey.save("service2", "donttellanyone")
+apikey.save("service3", "aboutthiskey")
 
-key1 = read_apikey("service1")
-key2 = read_apikey("service2")
-key3 = read_apikey("service3")
+key1 = apikey.load("service1")
+key2 = apikey.load("service2")
+key3 = apikey.load("service3")
 ```
 
 Store in a specific file
 
-```
-save_apikey("service42", "topsecretkey", filename="/srv/.secretkeys")
-key = read_apikey("service42", filename="/srv/.secretkeys")
+```python
+apikey.save("service42", "topsecretkey", filename="/srv/.secretkeys")
+key = apikey.load("service42", filename="/srv/.secretkeys")
 ```
 
 
