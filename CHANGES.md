@@ -1,3 +1,7 @@
+# 0.2.1 / 2002-05-30
+
+   * python 3.6 required
+
 # 0.2.0 / 2002-05-30
 
    * package moved from fury to pypi
