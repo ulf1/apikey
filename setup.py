@@ -7,7 +7,7 @@ def read(fname):
 
 
 setup(name='apikey',
-      version='0.2.0',
+      version='0.2.1',
       description='save and load API keys from a file',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
@@ -18,5 +18,5 @@ setup(name='apikey',
       packages=['apikey'],
       install_requires=[
           'setuptools>=40.0.0'],
-      python_requires='>=3.5',
+      python_requires='>=3.6',
       zip_safe=False)
