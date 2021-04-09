@@ -31,18 +31,19 @@ key = apikey.load("service42", filename="/srv/.secretkeys")
 ```
 
 
-## Commands
-Install a virtual environment
+## Appendix
 
-```
+### Install a virtual environment
+
+```sh
 python3.6 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 ```
 
 
-Python commands
+### Python commands
 
 * Check syntax: `flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')`
 * Run Unit Tests: `pytest`
