@@ -1,3 +1,7 @@
+# 0.2.3 / 2021-04-08
+
+  * MIT License changed to Apache 2.0
+
 # 0.2.1 / 2002-05-30
 
    * python 3.6 required
