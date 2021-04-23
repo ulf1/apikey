@@ -1,3 +1,7 @@
+# 0.2.4 / 2021-04-23
+
+  * Installation problems: zip_true set to False because file import required
+
 # 0.2.3 / 2021-04-08
 
   * MIT License changed to Apache 2.0
