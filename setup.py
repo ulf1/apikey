@@ -21,7 +21,6 @@ setup(name='apikey',
       author_email='554c46@gmail.com',
       license='MIT',
       packages=['apikey'],
-      install_requires=[
-          'setuptools>=40.0.0'],
+      # install_requires=[],
       python_requires='>=3.6',
       zip_safe=False)
