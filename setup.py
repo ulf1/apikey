@@ -1,5 +1,4 @@
 from setuptools import setup
-import pypandoc
 
 
 def get_version(path):
@@ -15,7 +14,7 @@ def get_version(path):
 setup(name='apikey',
       version=get_version("apikey/__init__.py"),
       description='save and load API keys from a file',
-      long_description=pypandoc.convert('README.md', 'rst'),
+      long_description='README.rst',
       url='http://github.com/ulf1/apikey',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
@@ -23,4 +22,4 @@ setup(name='apikey',
       packages=['apikey'],
       # install_requires=[],
       python_requires='>=3.6',
-      zip_safe=False)
+      zip_safe=True)
