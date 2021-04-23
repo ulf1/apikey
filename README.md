@@ -1,3 +1,7 @@
+[![PyPI version](https://badge.fury.io/py/apikey.svg)](https://badge.fury.io/py/apikey)
+[![apikey](https://snyk.io/advisor/python/apikey/badge.svg)](https://snyk.io/advisor/python/apikey)
+
+
 # apikey
 
 ## Installation 
