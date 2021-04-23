@@ -1,6 +1,7 @@
 # 0.2.4 / 2021-04-23
 
   * Installation problems: zip_true set to False because file import required
+  * Test multiple python versions
 
 # 0.2.3 / 2021-04-08
 
