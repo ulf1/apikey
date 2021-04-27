@@ -8,7 +8,7 @@
 The `apikey` [git repo](http://github.com/ulf1/apikey) is available as [PyPi package](https://pypi.org/project/apikey)
 
 ```
-pip install "apikey>=0.2.1"
+pip install "apikey>=0.2.4"
 pip install git+ssh://git@github.com/ulf1/apikey.git
 ```
 
