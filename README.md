@@ -1,10 +1,14 @@
+[![PyPI version](https://badge.fury.io/py/apikey.svg)](https://badge.fury.io/py/apikey)
+[![apikey](https://snyk.io/advisor/python/apikey/badge.svg)](https://snyk.io/advisor/python/apikey)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/apikey.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/apikey/context:python)
+
 # apikey
 
 ## Installation 
 The `apikey` [git repo](http://github.com/ulf1/apikey) is available as [PyPi package](https://pypi.org/project/apikey)
 
 ```
-pip install "apikey>=0.2.1"
+pip install "apikey>=0.2.4"
 pip install git+ssh://git@github.com/ulf1/apikey.git
 ```
 
@@ -47,4 +51,11 @@ pip install -r requirements-dev.txt
 
 * Check syntax: `flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')`
 * Run Unit Tests: `pytest`
-* Upload to PyPi with twine: `python setup.py sdist && twine upload -r pypi dist/*`
+
+Publish
+
+```sh
+pandoc README.md --from markdown --to rst -s -o README.rst
+python setup.py sdist 
+twine upload -r pypi dist/*
+```
