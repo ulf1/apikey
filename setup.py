@@ -27,7 +27,5 @@ setup(name='apikey',
       author_email='554c46@gmail.com',
       license='Apache License 2.0',
       packages=['apikey'],
-      # install_requires=[],
       python_requires='>=3.6',
-      zip_safe=True
-)
+      zip_safe=True)
